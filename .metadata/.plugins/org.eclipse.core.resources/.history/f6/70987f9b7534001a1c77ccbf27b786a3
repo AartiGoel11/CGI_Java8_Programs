@@ -1,0 +1,42 @@
+package com.example;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMap1 {
+
+	public static void main(String[] args) {
+ //Implementation of HashMap
+
+		Map<String,Integer> map = new HashMap<>();
+		
+		map.put("aa", 1);
+		map.put("bb", 2);
+		map.put("cc", 3);
+		map.put("dd", 5);
+		map.put("aa2", 1);
+		map.put("bb2", 2);
+		map.put("cc2", 3);
+		map.put("dd2", 5);
+		map.put("aa4", 1);
+		map.put("bb4", 2);
+		map.put("cc4", 3);
+		map.put("dd4", 5);
+		map.put("ffaa", 10);
+		map.put("aaa", 1);
+		map.put("bba", 2);
+		map.put("cca", 3);
+		map.put("dda", 5);
+		map.put("aa2a", 1);
+		map.put("bb2a", 2);
+		map.put("cc2a", 3);
+		map.put("dd2a", 5);
+		map.put("aa4a", 1);
+		map.put("bb4a", 2);
+		map.put("cc4a", 3);
+		map.put("dd4a", 5);
+		map.put("ffa", 10);
+		
+	}
+
+}

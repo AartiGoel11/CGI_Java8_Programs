@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/employee" xmlns:tns="http://www.example.org/employee" elementFormDefault="qualified">
+
+ <element name="employee" type="employee"/>
+ 
+  <complexType name="employee">
+    <sequence>
+      <element name="name" type=" string" minOccurs="0"/>
+      <element name="salary" type=" double"/>
+      <element name="designation" type=" string" minOccurs="0"/>
+      <element name="address" type="address" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type=" int" use="required"/>
+  </complexType>
+ 
+  <complexType name="address">
+    <sequence>
+      <element name="city" type=" string" minOccurs="0"/>
+      <element name="line1" type=" string" minOccurs="0"/>
+      <element name="line2" type=" string" minOccurs="0"/>
+      <element name="state" type=" string" minOccurs="0"/>
+      <element name="zipcode" type=" long"/>
+    </sequence>
+  </complexType>
+
+
+</schema>
